@@ -1,0 +1,23 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "This is React course by Bhupendra",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhupendraMaurya/React-Tutorial.git"
+  },
+  "keywords": [],
+  "author": "Bhupendra Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhupendraMaurya/React-Tutorial/issues"
+  },
+  "homepage": "https://github.com/BhupendraMaurya/React-Tutorial#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
