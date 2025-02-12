@@ -1,16 +1,11 @@
-/* <div id="parent">
-        <div id="child">
-            <h1>I am h1 tag dost</h1>
-            <h2> I am h2 tag bro </h2>
-        </div>
+// Since I have removed the CDN links from html file, so can I use that ?
+// Since we have installed the react and react dom in Node Modules, so import that here.
 
-        <div id="child2">
-            <h3>I am h1 tag dost</h3>
-            <h4> I am h2 tag bro </h4>
-        </div>
-    </div> */
+import React from "react"; // Here "react" refers to that react which is in the node modules.
+import ReactDOM from "react-dom/client";  
 
-// if there are multiple child to any element,then put that in an array
+
+
 const parent = React.createElement("div", {id:"parent"},
     [React.createElement("div",{id:"child"},
         [React.createElement("h1",{},"I am h1 tag dost by nested "),
