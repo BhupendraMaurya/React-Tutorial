@@ -1,1 +1,6 @@
+# Those things which can be recreated again by running command, 
+#  those things will not be pushed in the Github.
+
 /node_modules
+/dist
+/.parcel-cache
