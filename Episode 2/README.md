@@ -35,3 +35,9 @@
 - different dev and prod builds.
 
 # when you do this : npx parcel build index.html => you will get an error because in package.json it finds that apps.js is the entry point of our code, but here we are providing index.html, so remove that line from package.json.
+
+
+
+
+# Episode 3 =============
+
